@@ -1,3 +1,4 @@
+
 #patch-item-collection {
 	width: 100%
 }
@@ -5,17 +6,17 @@
 .patch-gallery-item {
 	width: 240px;
 	float: left;
-	padding: 10px;
+	padding: 20px;
 }
 
 .patch-gallery-item-pic {
-	height: 200px;
+	height: 150px;
 	width: 212px;
 	border-color: #FF5E52;
 	border-style: solid;
 	border-width: 2px;
 	vertical-align: middle;
-	display: table-cell;
+	display: block;
 }
 
 .patch-gallery-item-title {
@@ -24,4 +25,52 @@
 	width: 212px;
 	text-align: center;
 	color: #fff;
+}
+
+.patch-item-detail {
+	padding-left: 10%;
+	padding-right: 10%;
+	display: none;
+}
+
+.patch-item-detail * {
+	padding:0;
+	margin:0;
+}
+
+.patch-item-detail-line {
+	clear: both;
+	width: 100%;
+}
+
+.patch-item-detail-name {
+	background-color: #FF5E52;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	line-height: 50px;
+	font-size: 20px;
+	height: 50px;
+}
+
+.patch-item-detail-left {
+	width: 30%;
+	float: left;
+	color: #fff;
+	margin-bottom: 20px;
+	padding-left: 8px;
+	background-color: #FF5E52;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #FF5E52;
+}
+
+.patch-item-detail-right {
+	width: 70%;
+	float: left;
+	padding-left: 8px;
+	margin-bottom: 20px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #FF5E52;
 }
