@@ -3,15 +3,25 @@
 }
 
 .patch-gallery-item {
-	width: 200px;
+	width: 240px;
+	float: left;
+	padding: 10px;
 }
 
 .patch-gallery-item-pic {
 	height: 200px;
+	width: 212px;
+	border-color: #FF5E52;
+	border-style: solid;
+	border-width: 2px;
+	vertical-align: middle;
+	display: table-cell;
 }
 
 .patch-gallery-item-title {
 	background-color: #FF5E52;
 	height: 40px;
+	width: 212px;
 	text-align: center;
+	color: #fff;
 }
