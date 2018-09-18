@@ -1,0 +1,17 @@
+#patch-item-collection {
+	width: 100%
+}
+
+.patch-gallery-item {
+	width: 200px;
+}
+
+.patch-gallery-item-pic {
+	height: 200px;
+}
+
+.patch-gallery-item-title {
+	background-color: #FF5E52;
+	height: 40px;
+	text-align: center;
+}

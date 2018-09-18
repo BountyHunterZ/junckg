@@ -12,6 +12,7 @@
 <link rel='stylesheet' id='_bootstrap-css'  href='/wp-content/themes/dux/css/bootstrap.min.css?ver=5.0' type='text/css' media='all' />
 <link rel='stylesheet' id='_fontawesome-css'  href='/wp-content/themes/dux/css/font-awesome.min.css?ver=5.0' type='text/css' media='all' />
 <link rel='stylesheet' id='_main-css'  href='/wp-content/themes/dux/css/main.css?ver=5.0' type='text/css' media='all' />
+<link rel="stylesheet" href="patch.css" />
 <script type='text/javascript' src='/wp-content/themes/dux/js/libs/jquery.min.js?ver=5.0'></script>
 <link rel='https://api.w.org/' href='/index.php/wp-json/' />
 <link rel="canonical" href="/index.php/gallery/" />
@@ -60,29 +61,28 @@ var _hmt = _hmt || [];
 				<header class="article-header">
 			<h1 class="article-title"><a href="/index.php/gallery/">产品展示</a></h1>
 		</header>
-		<article class="article-content">
-			<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><img class="wp-image-45 size-medium alignright" src="/wp-content/uploads/2018/05/ABUIABAEGAAgueHd1AUo5p3p0AYwgwM4_gE300x300-300x194.png" alt="" width="300" height="194" /></p>
-<p>&nbsp;</p>
-<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;PVC排水管</strong></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;规格：40*40</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;材质：玻璃纤维</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><img class="wp-image-47 alignright" src="/wp-content/uploads/2018/05/ABUIABAEGAAgxuLd1AUo1piPzQIwgQM4gQI.png" alt="" width="300" height="200" srcset="/wp-content/uploads/2018/05/ABUIABAEGAAgxuLd1AUo1piPzQIwgQM4gQI.png 385w, /wp-content/uploads/2018/05/ABUIABAEGAAgxuLd1AUo1piPzQIwgQM4gQI-300x200.png 300w" sizes="(max-width: 300px) 100vw, 300px" /></p>
-<p>&nbsp;</p>
-<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;PVC电气</strong></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;规格：90*90</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;材质：塑料</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><img class="wp-image-48 size-medium alignright" src="/wp-content/uploads/2018/05/ABUIABAEGAAgr_Pd1AUo4ePw9QYwgQM4gQI-300x200.png" alt="" width="300" height="200" srcset="/wp-content/uploads/2018/05/ABUIABAEGAAgr_Pd1AUo4ePw9QYwgQM4gQI-300x200.png 300w, /wp-content/uploads/2018/05/ABUIABAEGAAgr_Pd1AUo4ePw9QYwgQM4gQI.png 385w" sizes="(max-width: 300px) 100vw, 300px" /></p>
-<p>&nbsp;</p>
-<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;PPR冷热水管材</strong></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;规格：30*90</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;材质：塑料</p>
-		</article>
+
+<!-- Patch Begin -->
+<article class="article-content">
+	<div id="patch-item-collection">
+		<a class="patch-gallery-item">
+			<div class="patch-gallery-item-pic">
+			</div>
+			<div class="patch-gallery-item-title">
+				<p>产品标题</p>
+			</div>
+		</a>
+	</div>
+	<div id="patch-item-detail">
+		<a class="patch-gallery-item">
+			<div>
+			</div>
+		</a>
+	</div>
+</article>
+<!-- Patch ends -->
+
+
 						<p>&nbsp;</p>
 			</div>
 </section>
@@ -110,5 +110,6 @@ window.jsui={
 <script type='text/javascript' src='/wp-content/themes/dux/js/libs/bootstrap.min.js?ver=5.0'></script>
 <script type='text/javascript' src='/wp-content/themes/dux/js/loader.js?ver=5.0'></script>
 <script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.9.7'></script>
+<script type="text/javascript" src="patch.js"></script>
 </body>
 </html>
